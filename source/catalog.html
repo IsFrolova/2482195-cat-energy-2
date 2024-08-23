@@ -17,8 +17,12 @@
   <header class="main-header">
     <nav class="main-navigation">
       <a class="main-navigation__logo logo" href="index.html">
-        <img class="logo__trademark" src="#" width="33" height="38" alt="Логотип">
-        <img class="logo__text" src="#" width="101" height="18" alt="Cat energy">
+        <picture>
+          <source media="(min-width: 1440px)" width="70" height="59" srcset="images/logo-icon-desktop.svg" type="image/svg+xml">
+          <source media="(min-width: 768px)" width="60" height="50" srcset="images/logo-icon-tablet.svg" type="image/svg+xml">
+          <img class="logo__trademark" src="images/logo-icon-mobile.svg" width="33" height="38" alt="Логотип">
+        </picture>
+        <img class="logo__text" src="images/logo-text.svg" width="101" height="18" alt="Cat energy">
       </a>
       <button class="main-navigation__toggle" type="button">
         <span class="visually-hidden">Открыть меню</span>
