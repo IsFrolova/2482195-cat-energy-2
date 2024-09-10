@@ -3,15 +3,23 @@
 }
 
 .additional-products__title {
-  //стили//
+  color: $additional-font-color;
+  font-family: $secondary-font;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
 }
 
 .additional-products__list {
-  //стили//
+  list-style-type: none;
 }
 
 .additional-products__item {
-  //стили//
+  color: #222222;
+  font-family: $secondary-font;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
 }
 
 .additional-products__banner {

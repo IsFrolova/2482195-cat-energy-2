@@ -1,7 +1,4 @@
 /* здесь используйте глобальные селекторы img, body, html и так далее */
-@include font-face("Lato", 400, normal, url("../../fonts/lato/Lato-Regular.woff2") format("woff2"));
-@include font-face("Oswald", 400, normal, url("../../fonts/oswald/oswaldregular.woff2") format("woff2"));
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -12,4 +9,3 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-

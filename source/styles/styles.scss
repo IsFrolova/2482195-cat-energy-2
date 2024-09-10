@@ -6,8 +6,9 @@
 
 
 /* BLOCKS */
+@import "./blocks/button.scss";
+@import "./blocks/grey-button.scss";
 @import "./blocks/page.scss";
-@import "./blocks/header.scss";
 @import "./blocks/main-header.scss";
 @import "./blocks/main-navigation.scss";
 @import "./blocks/logo.scss";
@@ -25,7 +26,6 @@
 @import "./blocks/copyright.scss";
 @import "./blocks/product-catalog.scss";
 @import "./blocks/card.scss";
-@import "./blocks/button.scss";
 @import "./blocks/additional-products.scss";
 @import "./blocks/purchase-gift.scss";
 @import "./blocks/card-goods.scss";

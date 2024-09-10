@@ -1,15 +1,27 @@
 .hero {
-  //стили//
+  color: #ffffff;
 }
 
 .hero__title {
-  //стили//
+  opacity: 0.85;
+  background-color: $green-font-color;
+  font-family: $secondary-font;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 36px;
 }
 
 .hero__slogan {
-  //стили//
+  opacity: 0.85;
+  background-color: $green-font-color;
+  font-size: 14px;
+  line-height: 14px;
 }
 
 .hero__img {
   //стили//
+}
+
+.hero__button {
+  text-decoration: none;
 }

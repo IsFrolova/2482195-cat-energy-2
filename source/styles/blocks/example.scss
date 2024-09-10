@@ -1,17 +1,22 @@
 .container {
-  //стили//
+  background-color: #eaeaea;
 }
 
 .example__title {
-  //стили//
+  color: $additional-font-color;
+  font-family: $secondary-font;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 40px;
 }
 
 .example__description {
-  //стили//
+  font-size: 14px;
+  line-height: 18px;
 }
 
 .example__list {
-  //стили//
+  list-style-type: none;
 }
 
 .example__item {
@@ -19,15 +24,24 @@
 }
 
 .example__number {
-  //стили//
+  color: $additional-font-color;
+  font-family: $secondary-font;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 .example__value {
-  //стили//
+  font-size: 14px;
+  line-height: 14px;
 }
 
 .example__cost {
-  //стили//
+  color: $additional-font-color;
+  font-family: $secondary-font;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
 }
 
 .example__cost-title {

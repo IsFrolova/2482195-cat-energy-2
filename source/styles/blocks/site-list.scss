@@ -1,13 +1,18 @@
 .site-list {
-  //стили//
+  list-style-type: none;
+  background-color: #ffffff;
 }
 
 .site-list__item {
-  //стили//
+  font-family: $secondary-font;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
 }
 
 .site-list__link {
-  //стили//
+  color: $additional-font-color;
+  text-decoration: none;
 }
 
 .site-list__link--current {

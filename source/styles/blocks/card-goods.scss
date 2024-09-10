@@ -3,11 +3,14 @@
 }
 
 .card-goods__list {
-  //стили//
+  list-style-type: none;
 }
 
 .card-goods__item {
-  //стили//
+  color: $basic-font-color;
+  font-family: $primary-font;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .card-goods__amount {
@@ -19,5 +22,5 @@
 }
 
 .card-goods__button {
-  //стили//
+  text-decoration: none;
 }

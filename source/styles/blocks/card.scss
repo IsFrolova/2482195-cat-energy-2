@@ -1,17 +1,22 @@
 .card__link {
-  //стили//
+  text-decoration: none;
 }
 
 .card__title {
-  //стили//
+  color: #222222;
+  font-family: $secondary-font;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
 }
 
 .card__list {
-  //стили//
+  list-style-type: none;
 }
 
 .card__item {
-  //стили//
+  font-size: 12px;
+  line-height: 16px;
 }
 
 .card__parameter {
@@ -23,7 +28,7 @@
 }
 
 .card__button {
-  //стили//
+  text-decoration: none;
 }
 
 .card--add {
@@ -35,6 +40,7 @@
 }
 
 .card__description {
-  //стили//
+  font-size: 12px;
+  line-height: 16px;
 }
 
