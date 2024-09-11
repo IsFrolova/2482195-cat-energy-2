@@ -1,10 +1,10 @@
 .hero {
   color: #ffffff;
+  opacity: 0.85;
+  background-color: $green-font-color;
 }
 
 .hero__title {
-  opacity: 0.85;
-  background-color: $green-font-color;
   font-family: $secondary-font;
   font-size: 36px;
   font-weight: 400;
@@ -12,10 +12,9 @@
 }
 
 .hero__slogan {
-  opacity: 0.85;
-  background-color: $green-font-color;
   font-size: 14px;
   line-height: 14px;
+  text-transform: uppercase;
 }
 
 .hero__img {
