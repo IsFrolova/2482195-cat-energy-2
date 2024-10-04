@@ -33,7 +33,10 @@
 }
 
 .card--add {
-  //стили//
+  background-image: url("../../icons/stack.svg#plus-icon");
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+  background-position: 0 30%;
 }
 
 .card__wrapper {

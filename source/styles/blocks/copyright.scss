@@ -3,6 +3,17 @@
   text-decoration: none;
 }
 
+.copyright::after {
+  content: "";
+  display: block;
+  mask-image: url("../../icons/stack.svg#logo-html-academy");
+  background-color: #666666;
+  mask-size: 27px 34px;
+  mask-repeat: no-repeat;
+  width: 27px;
+  height: 34px;
+}
+
 .copyright__title {
   line-height: 20px;
 }
