@@ -3,7 +3,34 @@
 }
 
 .fitness-goal__list {
+  position: relative;
   list-style-type: none;
+}
+
+.fitness-goal__list::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background-image: url("../../icons/stack.svg#cat-slim-icon");
+  background-repeat: no-repeat;
+  background-size: 50px 53px;
+  width: 50px;
+  height: 53px;
+  top: 0;
+  left: 20px;
+}
+
+.fitness-goal__list::after {
+  content: "";
+  display: block;
+  position: absolute;
+  background-image: url("../../icons/stack.svg#cat-pro-icon");
+  background-repeat: no-repeat;
+  background-size: 67px 50px;
+  width: 67px;
+  height: 50px;
+  top: 140px;
+  left: 13px;
 }
 
 .fitness-goal__item {
@@ -25,9 +52,22 @@
 }
 
 .fitness-goal__link {
+  position: relative;
   color: $additional-font-color;
   font-family: $secondary-font;
   font-size: 16px;
   line-height: 16px;
   text-decoration: none;
+}
+
+.fitness-goal__link::after {
+  content: "";
+  display: block;
+  position: absolute;
+  mask-image: url("../../icons/stack.svg#arrow-icon");
+  background-color: #000000;
+  width: 24px;
+  height: 12px;
+  top: 7px;
+  left: 100px;
 }

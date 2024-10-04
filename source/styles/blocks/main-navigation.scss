@@ -6,8 +6,17 @@
   text-decoration: none;
 }
 
+.main-navigation__toggle--close {
+  background-image: url("../../icons/stack.svg#menu-close-icon");
+}
+
 .main-navigation__toggle {
-  //стили//
+  background-image: url("../../icons/stack.svg#menu-open-icon");
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  width: 24px;
+  height: 24px;
+  border: none;
 }
 
 .main-navigation__list {
