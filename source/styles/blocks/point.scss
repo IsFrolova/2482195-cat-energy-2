@@ -1,11 +1,10 @@
 .point {
-  position: relative;
+
 }
 
 .point--one::before {
   content: "";
   display: block;
-  position: absolute;
   background-image: url("../../icons/stack.svg#leaf-icon");
   background-repeat: no-repeat;
   background-position: center;
@@ -13,14 +12,11 @@
   background-color: $green-font-color;
   width: 60px;
   height: 60px;
-  top: 0;
-  left: 0;
 }
 
 .point--two::before {
   content: "";
   display: block;
-  position: absolute;
   background-image: url("../../icons/stack.svg#powder-icon");
   background-repeat: no-repeat;
   background-position: center;
@@ -28,14 +24,11 @@
   background-color: $green-font-color;
   width: 60px;
   height: 60px;
-  top: 0;
-  left: 30px;
 }
 
 .point--three::before {
   content: "";
   display: block;
-  position: absolute;
   background-image: url("../../icons/stack.svg#meal-icon");
   background-repeat: no-repeat;
   background-position: center;
@@ -43,14 +36,11 @@
   background-color: $green-font-color;
   width: 60px;
   height: 60px;
-  top: 0;
-  left: 60px;
 }
 
 .point--four::before {
   content: "";
   display: block;
-  position: absolute;
   background-image: url("../../icons/stack.svg#clock-icon");
   background-repeat: no-repeat;
   background-position: center;
@@ -58,6 +48,4 @@
   background-color: $green-font-color;
   width: 60px;
   height: 60px;
-  top: 0;
-  left: 90px;
 }
