@@ -3,6 +3,18 @@
   background-color: #ffffff;
 }
 
+@media (min-width: $tablet-width) {
+  .site-list {
+    width: 436px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .site-list {
+    width: 475px;
+  }
+}
+
 .site-list__item {
   font-family: $secondary-font;
   font-size: 20px;

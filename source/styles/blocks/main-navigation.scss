@@ -1,5 +1,10 @@
 .main-navigation {
-  //стили//
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $tablet-width) {
+    flex-direction: row;
+  }
 }
 
 .main-navigation__logo {
@@ -17,8 +22,16 @@
   width: 24px;
   height: 24px;
   border: none;
+  padding: 0;
+}
+
+@media (min-width: $tablet-width) {
+  .main-navigation__toggle {
+    display: none;
+  }
 }
 
 .main-navigation__list {
-  //стили//
+  margin: 0;
+  padding: 0;
 }
