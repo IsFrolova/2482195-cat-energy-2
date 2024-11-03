@@ -1,5 +1,15 @@
 .logo {
-  //стили//
+  display: block;
+  width: 100%;
+  max-width: 190px;
+
+  @media (min-width: $tablet-width) {
+    max-width: 177px;
+  }
+
+  @media (min-width: $desktop-width) {
+    max-width: 202px;
+  }
 }
 
 .logo__trademark {
@@ -7,5 +17,5 @@
 }
 
 .logo__text {
-  vertical-align: middle;
+  //стили//
 }
