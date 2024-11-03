@@ -2,10 +2,17 @@
   color: #ffffff;
   opacity: 0.85;
   background-color: $green-font-color;
+  text-align: center;
+
 
   @media (min-width: $tablet-width) {
     color: $additional-font-color;
     background-color: #ffffff;
+    text-align: left;
+    padding-left: 90px;
+    padding-top: 65px;
+    min-height: 875px;
+    position: relative;
   }
 }
 
@@ -14,6 +21,15 @@
   font-size: 36px;
   font-weight: 400;
   line-height: 36px;
+  margin: 0;
+  margin-bottom: 25px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 60px;
+    line-height: 60px;
+    max-width: 500px;
+    margin-bottom: 40px;
+  }
 }
 
 .hero__slogan {
@@ -22,10 +38,33 @@
   font-weight: 400;
   line-height: 14px;
   text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 29px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 50px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 52px;
+  }
 }
 
 .hero__img {
-  //стили//
+  @media (min-width: $tablet-width) {
+    position: absolute;
+    left: 0;
+    z-index: -1;
+  }
+
+  @media (min-width: $desktop-width) {
+    position: absolute;
+    top: 30px;
+    left: 447px;
+    z-index: -1;
+  }
 }
 
 .hero__button {

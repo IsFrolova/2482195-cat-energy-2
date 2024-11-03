@@ -8,9 +8,13 @@
   text-align: center;
   display: inline-block;
   width: 100%;
+  padding: 10px 15px;
 
   @media (min-width: $tablet-width) {
-    width: 244px;
+    font-size: 20px;
+    line-height: 26px;
+    width: auto;
+    padding: 14px 26px;
   }
 
   &--grey {
