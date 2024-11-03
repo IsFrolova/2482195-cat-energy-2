@@ -1,5 +1,12 @@
 .fitness-goal {
-  //стили//
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+  @media (min-width: $desktop-width) {
+    flex-wrap: nowrap;
+    width: 50%;
+  }
 }
 
 .fitness-goal__list {

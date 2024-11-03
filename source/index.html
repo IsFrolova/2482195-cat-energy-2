@@ -16,8 +16,8 @@
 
 <body class="page__body">
   <header class="main-header">
-    <nav class="main-navigation">
-      <div class="container">
+    <div class="container">
+      <nav class="main-navigation">
         <a class="main-navigation__logo logo" href="index.html">
           <picture>
             <source media="(min-width: 1440px)" width="70" height="59" srcset="images/logo-icon-desktop.svg" type="image/svg+xml">
@@ -29,30 +29,32 @@
         <button class="main-navigation__toggle main-navigation__toggle--close" type="button">
           <span class="visually-hidden">Открыть меню</span>
         </button>
-      </div>
-      <ul class="main-navigation__list site-list">
-        <li class="site-list__item">
-          <a class="site-list__link site-list__link--current" href="index.html">Главная</a>
-        </li>
-        <li class="site-list__item">
-          <a class="site-list__link" href="catalog.html">Каталог продукции</a>
-        </li>
-        <li class="site-list__item">
-          <a class="site-list__link" href="#">Подбор программы</a>
-        </li>
-      </ul>
-    </nav>
+        <ul class="main-navigation__list site-list">
+          <li class="site-list__item">
+            <a class="site-list__link site-list__link--current" href="index.html">Главная</a>
+          </li>
+          <li class="site-list__item">
+            <a class="site-list__link" href="catalog.html">Каталог продукции</a>
+          </li>
+          <li class="site-list__item">
+            <a class="site-list__link" href="#">Подбор программы</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </header>
   <main class="main-container">
     <section class="hero">
-      <h1 class="hero__title">Функциональное питание для котов</h1>
-      <p class="hero__slogan">Занялся собой? Займись котом!</p>
-      <picture>
-        <source media="(min-width: 1440px)" width="552" height="499" srcset="images/index-can-desktop@1x.png 1x, images/index-can-desktop@2x.png 2x" type="image/png">
-        <source media="(min-width: 768px)" width="709" height="609" srcset="images/index-can-tablet@1x.png 1x, images/index-can-tablet@2x.png 2x" type="image/png">
-        <img class="hero__img" src="images/index-can-mobile@1x.png" srcset="images/index-can-mobile@2x.png 2x" width="280" height="270" alt="Банка корма Cat energy с куриным вкусом">
-      </picture>
-      <a class="hero__button button" href="#">Подобрать программу</a>
+      <div class="container">
+        <h1 class="hero__title">Функциональное питание для котов</h1>
+        <p class="hero__slogan">Занялся собой? Займись котом!</p>
+        <picture>
+          <source media="(min-width: 1440px)" width="552" height="499" srcset="images/index-can-desktop@1x.png 1x, images/index-can-desktop@2x.png 2x" type="image/png">
+          <source media="(min-width: 768px)" width="709" height="609" srcset="images/index-can-tablet@1x.png 1x, images/index-can-tablet@2x.png 2x" type="image/png">
+          <img class="hero__img" src="images/index-can-mobile@1x.png" srcset="images/index-can-mobile@2x.png 2x" width="280" height="270" alt="Банка корма Cat energy с куриным вкусом">
+        </picture>
+        <a class="hero__button button" href="#">Подобрать программу</a>
+      </div>
     </section>
     <section class="fitness-goal">
       <div class="container">
@@ -72,13 +74,15 @@
       </div>
     </section>
     <section class="product-use">
-      <h2 class="product-use__title">Как работает продукт</h2>
-      <ul class="product-use__list">
-        <li class="product-use__item point point--one">Функциональное питание содержит только полезные питательные вещества.</li>
-        <li class="product-use__item point point--two">Выпускается в виде порошка, который нужно лишь залить кипятком и готово.</li>
-        <li class="product-use__item point point--three">Замените один-два приема обычной еды на наше функциональное питание.</li>
-        <li class="product-use__item point point--four">Уже через месяц наслаждайтесь изменениями к лучшемувашего питомца!</li>
-      </ul>
+      <div class="container">
+        <h2 class="product-use__title">Как работает продукт</h2>
+        <ul class="product-use__list">
+          <li class="product-use__item point point--one">Функциональное питание содержит только полезные питательные вещества.</li>
+          <li class="product-use__item point point--two">Выпускается в виде порошка, который нужно лишь залить кипятком и готово.</li>
+          <li class="product-use__item point point--three">Замените один-два приема обычной еды на наше функциональное питание.</li>
+          <li class="product-use__item point point--four">Уже через месяц наслаждайтесь изменениями к лучшемувашего питомца!</li>
+        </ul>
+      </div>
     </section>
     <section class="example">
       <div class="container">

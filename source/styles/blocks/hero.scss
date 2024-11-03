@@ -2,6 +2,11 @@
   color: #ffffff;
   opacity: 0.85;
   background-color: $green-font-color;
+
+  @media (min-width: $tablet-width) {
+    color: $additional-font-color;
+    background-color: #ffffff;
+  }
 }
 
 .hero__title {

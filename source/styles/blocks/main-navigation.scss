@@ -1,10 +1,13 @@
 .main-navigation {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  // flex-direction: column;
 
-  @media (min-width: $tablet-width) {
-    flex-direction: row;
-  }
+  // @media (min-width: $tablet-width) {
+  //   flex-direction: row;
+  // }
 }
 
 .main-navigation__logo {

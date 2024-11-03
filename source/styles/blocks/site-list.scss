@@ -1,11 +1,15 @@
 .site-list {
+  // display: none;
+  width: 100%;
   list-style-type: none;
   background-color: #ffffff;
+  text-align: center;
 }
 
 @media (min-width: $tablet-width) {
   .site-list {
-    width: 436px;
+    display: flex;
+    width: auto;
   }
 }
 
