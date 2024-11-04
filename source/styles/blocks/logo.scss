@@ -18,4 +18,10 @@
 
 .logo__text {
   margin-left: 27%;
+  height: 38px;
+
+
+  @media (min-width: $tablet-width) {
+    margin-left: 5%;
+  }
 }
