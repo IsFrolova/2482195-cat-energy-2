@@ -1,7 +1,7 @@
 .logo {
-  display: block;
   width: 100%;
   max-width: 190px;
+
 
   @media (min-width: $tablet-width) {
     max-width: 177px;
@@ -17,5 +17,5 @@
 }
 
 .logo__text {
-  //стили//
+  margin-left: 27%;
 }
