@@ -1,23 +1,31 @@
 .fitness-goal {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-
-  @media (min-width: $desktop-width) {
-    flex-wrap: nowrap;
-    width: 50%;
-  }
+  //стили//
 }
 
 .fitness-goal__list {
+  display: flex;
+  flex-wrap: wrap;
   list-style-type: none;
   margin: 0;
   padding: 0;
+
+  @media (min-width: $desktop-width) {
+    justify-content: space-between;
+  }
 }
 
 .fitness-goal__item {
   position: relative;
   background-color: #f2f2f2;
+  min-height: 266px;
+  margin-bottom: 20px;
+  flex: 0 0 100%;
+  max-width: 100%;
+
+  @media (min-width: $desktop-width) {
+    flex: 0 0 40%;
+    max-width: 40%;
+  }
 }
 
 .fitness-goal__item--slim::after {
@@ -29,8 +37,8 @@
   background-size: 50px 53px;
   width: 50px;
   height: 53px;
-  top: 0;
-  left: 0;
+  top: 21px;
+  left: 20px;
 }
 
 .fitness-goal__item--gain::after {
@@ -42,8 +50,8 @@
   background-size: 67px 50px;
   width: 67px;
   height: 50px;
-  top: 0;
-  left: 0;
+  top: 24px;
+  left: 13px;
 }
 
 .fitness-goal__title {
@@ -53,11 +61,16 @@
   font-weight: 400;
   line-height: 37px;
   text-transform: uppercase;
+  margin: 0;
+  padding-top: 30px;
+  padding-left: 90px;
 }
 
 .fitness-goal__description {
   font-size: 14px;
   line-height: 18px;
+  margin: 0;
+  padding: 29px 33px 42px 20px;
 }
 
 .fitness-goal__link {
@@ -67,6 +80,7 @@
   font-size: 16px;
   line-height: 16px;
   text-decoration: none;
+  padding-left: 20px;
 }
 
 .fitness-goal__link::after {
@@ -78,5 +92,5 @@
   width: 24px;
   height: 12px;
   top: 7px;
-  left: 100px;
+  left: 120px;
 }

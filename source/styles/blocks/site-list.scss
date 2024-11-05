@@ -4,12 +4,15 @@
   list-style-type: none;
   background-color: #ffffff;
   text-align: center;
+  border-bottom: 1px solid #e6e6e6;
 }
 
 @media (min-width: $tablet-width) {
   .site-list {
     display: flex;
     width: auto;
+    border: none;
+    gap: 33px;
   }
 }
 
@@ -19,6 +22,13 @@
   font-weight: 400;
   line-height: 20px;
   text-transform: uppercase;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  border-top: 1px solid #e6e6e6;
+
+  @media (min-width: $tablet-width) {
+    border: none;
+  }
 }
 
 .site-list__link {
@@ -27,5 +37,13 @@
 }
 
 .site-list__link--current {
-  //стили//
+  @media (min-width: $tablet-width) {
+    padding-bottom: 10px;
+    border-bottom: 2px solid $green-font-color;
+  }
+
+
+  @media (min-width: $desktop-width) {
+    border-bottom: 2px solid #ffffff;
+  }
 }

@@ -23,5 +23,12 @@
 
   @media (min-width: $tablet-width) {
     margin-left: 5%;
+    height: 50px;
+  }
+
+  @media (min-width: $tablet-width) {
+
+    margin-left: 3%;
+    height: 59px;
   }
 }

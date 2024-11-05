@@ -1,5 +1,6 @@
 .product-use {
   background-color: #ffffff;
+  margin-bottom: 49px;
 }
 
 .product-use__title {
@@ -8,12 +9,24 @@
   font-size: 36px;
   font-weight: 400;
   line-height: 40px;
+  margin: 0;
+  margin-bottom: 40px;
 }
 
 .product-use__list {
+  display: flex;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
   list-style-type: none;
+
+  @media (min-width: $tablet-width) {
+    gap: 37px 153px;
+  }
+
+  @media (min-width: $desktop-width) {
+    gap: 70px;
+  }
 }
 
 .product-use__item {
