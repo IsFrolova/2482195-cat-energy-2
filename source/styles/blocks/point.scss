@@ -3,6 +3,7 @@
   align-items: center;
   margin-bottom: 20px;
 
+
   @media (min-width: $tablet-width) {
     width: 250px;
     height: 280px;
@@ -68,4 +69,51 @@
   height: 60px;
   flex-shrink: 0;
   margin-right: 20px;
+}
+
+
+@media (min-width: $tablet-width) {
+  .point--one::after {
+    counter-increment: number;
+    content: counter(number) "";
+    font-family: $secondary-font;
+    font-size: 280px;
+    line-height: 280px;
+    color: #f2f2f2;
+    text-align: end;
+    z-index: -1;
+  }
+
+  .point--two::after {
+    counter-increment: number;
+    content: counter(number) "";
+    font-family: $secondary-font;
+    font-size: 280px;
+    line-height: 280px;
+    color: #f2f2f2;
+    text-align: end;
+    z-index: -1;
+  }
+
+  .point--three::after {
+    counter-increment: number;
+    content: counter(number) "";
+    font-family: $secondary-font;
+    font-size: 280px;
+    line-height: 280px;
+    color: #f2f2f2;
+    text-align: end;
+    z-index: -1;
+  }
+
+  .point--four::after {
+    counter-increment: number;
+    content: counter(number) "";
+    font-family: $secondary-font;
+    font-size: 280px;
+    line-height: 280px;
+    color: #f2f2f2;
+    text-align: end;
+    z-index: -1;
+  }
 }
