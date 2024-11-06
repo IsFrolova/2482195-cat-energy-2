@@ -1,9 +1,27 @@
 .cooperation {
-  //стили//
+  margin: 0;
+  padding: 0 20px;
+
+  @media (min-width: $tablet-width) {
+    padding: 0 30px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0 110px;
+  }
+}
+
+.cooperation__wrapper {
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $tablet-width) {
+    flex-direction: row;
+  }
 }
 
 .cooperation--index {
-  //стили//
+  background-color: #f2f2f2;
 }
 
 .cooperation__title {
