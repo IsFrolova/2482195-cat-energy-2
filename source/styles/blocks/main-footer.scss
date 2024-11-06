@@ -1,9 +1,34 @@
 .main-footer {
-  //стили//
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  padding: 0 20px;
+  background-color: #f2f2f2;
+
+  @media (min-width: $tablet-width) {
+    padding: 0 30px;
+  }
+
+  @media (min-width: $tablet-width) {
+    padding: 0 110px;
+  }
+}
+
+.main-footer__wrapper {
+  flex: 0 0 100%;
+  max-width: 100%;
+
+  @media (min-width: $tablet-width) {
+    flex: 0 0 32%;
+    max-width: 32%;
+  }
 }
 
 .main-footer__logo {
+  padding-top: 40px;
+  padding-bottom: 20px;
   text-decoration: none;
+  margin: 0 auto;
 }
 
 .main-footer__social {
@@ -11,5 +36,6 @@
 }
 
 .main-footer__copyright {
-  //стили//
+  padding-top: 20px;
+  padding-bottom: 40px;
 }

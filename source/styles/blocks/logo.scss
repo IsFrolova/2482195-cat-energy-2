@@ -1,34 +1,27 @@
 .logo {
-  width: 100%;
+  display: flex;
+  gap: 35%;
   max-width: 190px;
+  align-items: center;
 
 
   @media (min-width: $tablet-width) {
+    gap: 5%;
     max-width: 177px;
   }
 
   @media (min-width: $desktop-width) {
+    gap: 3%;
     max-width: 202px;
   }
 }
 
 .logo__trademark {
-  //стили//
+  margin: auto;
+  max-width: auto;
 }
 
 .logo__text {
-  margin-left: 27%;
-  height: 38px;
-
-
-  @media (min-width: $tablet-width) {
-    margin-left: 5%;
-    height: 50px;
-  }
-
-  @media (min-width: $tablet-width) {
-
-    margin-left: 3%;
-    height: 59px;
-  }
+  margin: auto;
+  max-width: auto;
 }
