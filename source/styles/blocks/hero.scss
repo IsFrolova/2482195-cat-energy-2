@@ -76,6 +76,9 @@
 }
 
 .hero__button {
-  width: auto;
   text-decoration: none;
+
+  @media (min-width: $tablet-width) {
+    width: 244px;
+  }
 }

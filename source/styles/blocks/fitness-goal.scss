@@ -3,13 +3,13 @@
 }
 
 .fitness-goal__list {
-  display: flex;
-  flex-wrap: wrap;
   list-style-type: none;
   margin: 0;
   padding: 0;
 
   @media (min-width: $desktop-width) {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
   }
 }
@@ -17,14 +17,19 @@
 .fitness-goal__item {
   position: relative;
   background-color: #f2f2f2;
-  min-height: 266px;
+  padding: 30px 33px 18px 20px;
   margin-bottom: 20px;
   flex: 0 0 100%;
-  max-width: 100%;
+
+  @media (min-width: $tablet-width) {
+    padding: 77px 316px 83px 52px;
+    margin-bottom: 30px;
+  }
 
   @media (min-width: $desktop-width) {
     flex: 0 0 40%;
-    max-width: 40%;
+    margin-bottom: 69px;
+    padding: 77px 61px 55px 52px;
   }
 }
 
@@ -39,6 +44,20 @@
   height: 53px;
   top: 21px;
   left: 20px;
+
+  @media (min-width: $tablet-width) {
+    width: 200px;
+    height: 211px;
+    top: 81px;
+    right: 63px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 100px;
+    height: 106px;
+    top: 41px;
+    left: 52px;
+  }
 }
 
 .fitness-goal__item--gain::after {
@@ -62,15 +81,35 @@
   line-height: 37px;
   text-transform: uppercase;
   margin: 0;
-  padding-top: 30px;
   padding-left: 90px;
+
+  @media (min-width: $tablet-width) {
+    padding-left: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-left: 162px;
+  }
 }
 
 .fitness-goal__description {
   font-size: 14px;
   line-height: 18px;
-  margin: 0;
-  padding: 29px 33px 42px 20px;
+  border-bottom: 1px solid #d9d9d9;
+  padding-top: 29px;
+  padding-bottom: 38px;
+
+  @media (min-width: $tablet-width) {
+    border-bottom: none;
+    margin: 0;
+    padding-top: 24px;
+    padding-bottom: 48px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 73px;
+    padding-bottom: 23px;
+  }
 }
 
 .fitness-goal__link {
@@ -80,7 +119,7 @@
   font-size: 16px;
   line-height: 16px;
   text-decoration: none;
-  padding-left: 20px;
+  text-transform: uppercase;
 }
 
 .fitness-goal__link::after {
@@ -92,5 +131,5 @@
   width: 24px;
   height: 12px;
   top: 7px;
-  left: 120px;
+  left: 102px;
 }

@@ -14,14 +14,14 @@
 }
 
 .product-use__list {
-  display: flex;
-  flex-wrap: wrap;
   margin: 0;
   padding: 0;
   counter-reset: number;
   list-style-type: none;
 
   @media (min-width: $tablet-width) {
+    display: flex;
+    flex-wrap: wrap;
     gap: 37px 153px;
   }
 
