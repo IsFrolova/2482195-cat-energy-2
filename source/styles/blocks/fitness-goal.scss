@@ -46,15 +46,17 @@
   left: 20px;
 
   @media (min-width: $tablet-width) {
+    background-size: 200px 211px;
     width: 200px;
     height: 211px;
     top: 81px;
-    right: 63px;
+    left: calc(100% - 253px);
   }
 
   @media (min-width: $desktop-width) {
-    width: 100px;
-    height: 106px;
+    background-size: 100px 106px;
+    width: 100%;
+    height: 100%;
     top: 41px;
     left: 52px;
   }
@@ -71,6 +73,23 @@
   height: 50px;
   top: 24px;
   left: 13px;
+
+
+  @media (min-width: $tablet-width) {
+    background-size: 268px 200px;
+    width: 268px;
+    height: 200px;
+    top: 91px;
+    left: calc(100% - 287px);
+  }
+
+  @media (min-width: $desktop-width) {
+    background-size: 134px 100px;
+    width: 100%;
+    height: 100%;
+    top: 41px;
+    left: 52px;
+  }
 }
 
 .fitness-goal__title {

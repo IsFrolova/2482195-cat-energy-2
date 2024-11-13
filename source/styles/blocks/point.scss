@@ -76,6 +76,8 @@
   .point--one::after {
     counter-increment: number;
     content: counter(number) "";
+    position: absolute;
+    right: 0;
     font-family: $secondary-font;
     font-size: 280px;
     line-height: 280px;
@@ -87,6 +89,8 @@
   .point--two::after {
     counter-increment: number;
     content: counter(number) "";
+    position: absolute;
+    right: 0;
     font-family: $secondary-font;
     font-size: 280px;
     line-height: 280px;
@@ -98,6 +102,8 @@
   .point--three::after {
     counter-increment: number;
     content: counter(number) "";
+    position: absolute;
+    right: 0;
     font-family: $secondary-font;
     font-size: 280px;
     line-height: 280px;
@@ -109,6 +115,8 @@
   .point--four::after {
     counter-increment: number;
     content: counter(number) "";
+    position: absolute;
+    right: 0;
     font-family: $secondary-font;
     font-size: 280px;
     line-height: 280px;
