@@ -1,9 +1,16 @@
 .main-footer {
+  background-color: #f2f2f2;
+}
+
+.main-footer__module {
   display: flex;
   flex-wrap: wrap;
   min-height: 147px;
-  background-color: #f2f2f2;
   justify-content: space-between;
+
+  @media (min-width: $tablet-width) {
+    align-items: center;
+  }
 }
 
 .main-footer__wrapper {
@@ -13,7 +20,6 @@
   @media (min-width: $tablet-width) {
     flex: 0 0 32%;
     max-width: 32%;
-    align-self: center;
   }
 }
 
