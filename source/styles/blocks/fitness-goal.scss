@@ -6,7 +6,6 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-  margin-bottom: 20px;
 
   @media (min-width: $tablet-width) {
     margin-bottom: 30px;
@@ -24,15 +23,18 @@
   position: relative;
   background-color: #f2f2f2;
   padding: 30px 33px 18px 20px;
+  margin-bottom: 20px;
   flex: 0 0 100%;
 
   @media (min-width: $tablet-width) {
     padding: 77px 316px 83px 52px;
+    margin-bottom: 45px;
   }
 
   @media (min-width: $desktop-width) {
     flex: 0 0 37%;
     padding: 77px 61px 55px 52px;
+    margin-bottom: 0;
   }
 }
 

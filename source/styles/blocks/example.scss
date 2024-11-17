@@ -8,19 +8,34 @@
   font-size: 36px;
   font-weight: 400;
   line-height: 40px;
+  margin: 0;
+  padding-top: 25px;
+  padding-bottom: 40px;
 }
 
 .example__description {
   font-size: 14px;
   line-height: 18px;
+  margin: 0;
+  padding-bottom: 20px;
 }
 
 .example__list {
+  display: flex;
+  gap: 32px;
+  justify-content: space-between;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 35px;
 }
 
 .example__item {
-  //стили//
+  border: 1px solid #cdcdcd;
+  border-radius: 3px;
+  min-width: 124px;
+  text-align: center;
+  position: relative;
 }
 
 .example__number {
@@ -29,11 +44,19 @@
   font-size: 24px;
   font-weight: 400;
   line-height: 24px;
+  margin: 15px 0;
 }
 
 .example__value {
+  position: absolute;
+  display: block;
   font-size: 14px;
   line-height: 14px;
+  margin: 0;
+  top: 47px;
+  left: 18px;
+  max-width: 87px;
+  background: #eaeaea;
 }
 
 .example__cost {
@@ -43,14 +66,17 @@
   font-weight: 400;
   line-height: 20px;
   text-transform: uppercase;
+  display: flex;
+  justify-content: center;
 }
 
 .example__cost-title {
-  //стили//
+  margin: 0;
+  padding-right: 7px;
 }
 
 .example__cost-number {
-  //стили//
+  margin: 0;
 }
 
 .example__slider {

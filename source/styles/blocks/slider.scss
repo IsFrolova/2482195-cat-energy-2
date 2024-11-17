@@ -1,9 +1,11 @@
 .slider {
-  //стили//
+  display: flex;
 }
 
 .slider__image {
-  //стили//
+  // max-width: 100%;
+  // object-fit: contain;
+  // object-position: center;
 }
 
 .slider__image--before {

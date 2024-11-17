@@ -1,3 +1,11 @@
 .main-header {
-  min-height: 65px;
+  min-height: 38px;
+
+  @media (min-width: $tablet-width) {
+    min-height: 50px;
+  }
+
+  @media (min-width: $tablet-width) {
+    min-height: 60px;
+  }
 }

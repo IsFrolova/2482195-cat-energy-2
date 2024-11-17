@@ -43,4 +43,9 @@
 .main-navigation__list {
   margin: 0;
   padding: 0;
+  padding-top: 15px;
+
+  @media (min-width: $tablet-width) {
+    padding: 0;
+  }
 }
