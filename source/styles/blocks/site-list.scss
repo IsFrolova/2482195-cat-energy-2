@@ -1,18 +1,19 @@
 .site-list {
   // display: none;
-  width: 100%;
   list-style-type: none;
   background-color: #ffffff;
   text-align: center;
   border-bottom: 1px solid #e6e6e6;
-}
+  width: 100%;
 
-@media (min-width: $tablet-width) {
-  .site-list {
-    display: flex;
-    flex-wrap: wrap;
-    border: none;
+  @media (min-width: $tablet-width) {
+    width: auto;
+    border-bottom: none;
     gap: 33px;
+  }
+
+  @media (min-width: $desktop-width) {
+    gap: 31px;
   }
 }
 
@@ -27,7 +28,14 @@
   border-top: 1px solid #e6e6e6;
 
   @media (min-width: $tablet-width) {
+    font-size: 18px;
+    line-height: 24px;
     border: none;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 20px;
+    line-height: 30px;
   }
 }
 

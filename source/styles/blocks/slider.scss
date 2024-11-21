@@ -1,19 +1,30 @@
 .slider {
-  display: flex;
+  //стили//
 }
 
 .slider__image {
-  // max-width: 100%;
-  // object-fit: contain;
-  // object-position: center;
+  position: absolute;
+  top: 0;
+  max-width: none;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
 }
 
 .slider__image--before {
-  //стили//
+  left: 0;
+  width: 50%;
+  overflow: hidden;
+  object-position: left;
+  transform: translateX(0);
 }
 
 .slider__image--after {
-  //стили//
+  clip: rect(auto 256px auto 140px);
+
+  @media (min-width: $tablet-width) {
+    clip: rect(auto 560px auto 280px);
+  }
 }
 
 .slider__button {
@@ -24,7 +35,12 @@
   height: 256px;
   border-radius: 2px;
   border: none;
-  left: 20px;
+  left: 0;
+  z-index: 10;
+
+  @media (min-width: $tablet-width) {
+    height: 512px;
+  }
 }
 
 .slider__button::before {
@@ -36,7 +52,7 @@
   background-color: #ffffff;
   width: 40px;
   height: 40px;
-  transform: translate(-50%, -50%);
+  transform: translate(-45%, -50%);
 }
 
 .slider__button::after {
@@ -47,5 +63,5 @@
   mask-image: url("../../icons/stack.svg#slider-button-icon");
   width: 24px;
   height: 18px;
-  transform: translate(-50%, -50%);
+  transform: translate(-40%, -50%);
 }

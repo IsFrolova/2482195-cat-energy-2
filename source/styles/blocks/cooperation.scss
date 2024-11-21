@@ -4,7 +4,8 @@
 
 .cooperation__wrapper {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  padding: 26px 0;
 
   @media (min-width: $tablet-width) {
     flex-direction: row;
@@ -18,18 +19,28 @@
 .cooperation__title {
   color: #111111;
   font-family: $secondary-font;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 26px;
+  line-height: 20px;
   text-transform: uppercase;
   margin: 0;
+  flex: 0 0 50%;
+  max-width: 140px;
+  display: block;
+
+  @media (min-width: $tablet-width) {
+    max-width: 165px;
+  }
 }
 
 .cooperation__address {
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   line-height: 20px;
   margin: 0;
+  flex: 0 0 50%;
+  max-width: 140px;
+  display: block;
 }
 
 .cooperation__img {
