@@ -146,10 +146,9 @@
     height: 50px;
   }
 
-  @media (min-width: $tablet-width) {
-    max-width: 330px;
+  @media (min-width: $desktop-width) {
+    min-width: 330px;
     justify-content: space-between;
-    gap: 63px;
   }
 }
 
@@ -158,7 +157,6 @@
   padding-right: 7px;
 
   @media (min-width: $tablet-width) {
-
     padding: 0;
   }
 }
