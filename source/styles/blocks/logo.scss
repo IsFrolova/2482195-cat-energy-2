@@ -1,23 +1,30 @@
 .logo {
   display: flex;
-  min-width: 190px;
   justify-content: space-between;
   align-items: center;
-  gap: 30%;
+  gap: 40%;
 
 
   @media (min-width: $tablet-width) {
-    gap: 0;
-    min-width: 177px;
+    gap: 13px;
   }
 
   @media (min-width: $desktop-width) {
-    min-width: 202px;
+    gap: 14px;
   }
 }
 
 .logo__trademark {
   display: block;
+  width: 33px;
+
+  @media (min-width: $tablet-width) {
+    width: 60px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 70px;
+  }
 }
 
 .logo__text {

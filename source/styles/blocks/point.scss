@@ -1,17 +1,13 @@
 .point {
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 
 
   @media (min-width: $tablet-width) {
     width: 230px;
     height: 280px;
-    margin-bottom: 0;
-  }
-
-  @media (min-width: $desktop-width) {
-    // flex-direction: row;
+    padding-bottom: 0;
   }
 }
 
