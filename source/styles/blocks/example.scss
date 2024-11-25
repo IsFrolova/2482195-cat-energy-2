@@ -136,13 +136,13 @@
 
   @media (min-width: $tablet-width) {
     background-color: #ffffff;
+    top: 58px;
     left: 10px;
     min-width: 142px;
   }
 
   @media (min-width: $desktop-width) {
     background-color: #eaeaea;
-    top: 58px;
   }
 }
 
