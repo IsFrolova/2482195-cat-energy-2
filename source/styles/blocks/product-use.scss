@@ -1,6 +1,14 @@
 .product-use {
   background-color: #ffffff;
   padding-bottom: 49px;
+
+  @media (min-width: $tablet-width) {
+    padding-bottom: 47px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-bottom: 69px;
+  }
 }
 
 .product-use__title {
