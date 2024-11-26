@@ -3,18 +3,29 @@
 
   @media (min-width: $desktop-width) {
     display: grid;
-    grid-template-columns: 1fr 565px 655px 1fr;
+    grid-template-columns: 1fr 565px 575px 1fr;
   }
 }
 
-.cooperation__wrapper {
+.cooperation__wrapper-text {
+  @media (min-width: $desktop-width) {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-self: center;
+    z-index: 3;
+    background-color: #ffffff;
+    margin: 95px 0 106px;
+  }
+}
+
+.cooperation__information {
   display: flex;
   justify-content: space-between;
   padding: 26px 0;
 
   @media (min-width: $desktop-width) {
-    grid-column: 2/3;
-    grid-row: 1/2;
+    gap: 87px;
+    padding: 60px 40px;
   }
 }
 
@@ -34,7 +45,12 @@
   max-width: 140px;
 
   @media (min-width: $tablet-width) {
-    max-width: 165px;
+    max-width: 163px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 20px;
+    line-height: 26px;
   }
 }
 
@@ -45,18 +61,25 @@
   margin: 0;
   flex: 0 0 50%;
   max-width: 140px;
+
+  @media (min-width: $desktop-width) {
+    font-size: 16px;
+    line-height: 20px;
+    max-width: 157px;
+  }
+}
+
+.cooperation__wrapper-img {
+  @media (min-width: $desktop-width) {
+    grid-column: 1/5;
+    grid-row: 1/2;
+  }
 }
 
 .cooperation__img {
   display: block;
   width: 100%;
-  height: auto;
-
-  @media (min-width: $desktop-width) {
-    width: auto;
-    grid-column: 1/5;
-    grid-row: 1/2;
-  }
+  height: 100%;
 }
 
 picture {
