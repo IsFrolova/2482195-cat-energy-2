@@ -5,15 +5,44 @@
 .additional-products__title {
   color: $additional-font-color;
   font-family: $secondary-font;
-  font-size: 40px;
+  font-size: 24px;
   font-weight: 400;
-  line-height: 40px;
+  line-height: 24px;
   margin-top: 25px;
   margin-bottom: 35px;
+  position: relative;
+  width: fit-content;
+  background: #ffffff;
+  box-shadow: -40px 0 0 0 #ffffff, 40px 0 0 0 #ffffff;
 
   @media (min-width: $tablet-width) {
     margin-top: 74px;
     margin-bottom: 80px;
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+
+.additional-products__title::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -20px;
+  left: -20px;
+  width: 100vw;
+  height: 2px;
+  background: $green-font-color;
+  box-shadow: 100vw 0 0 0 $green-font-color;
+  z-index: -1;
+
+  @media (min-width: $tablet-width) {
+    right: -30px;
+    left: -30px;
   }
 }
 
@@ -43,9 +72,25 @@
   font-weight: 400;
   line-height: 20px;
   border-top: 1px solid #cdcdcd;
+  margin-left: -20px;
+  margin-right: -20px;
+  padding: 13px 20px 19px;
+
+  @media (min-width: $tablet-width) {
+    margin-left: -30px;
+    margin-right: -30px;
+    padding: 26px 30px 28px;
+  }
+
+
+  @media (min-width: $desktop-width) {
+    margin: 0;
+    padding: 15px 0 17px;
+  }
+}
+
+.additional-products__item:last-of-type {
   border-bottom: 1px solid #cdcdcd;
-  padding-top: 13px;
-  padding-bottom: 19px;
 }
 
 .additional-products__banner {
