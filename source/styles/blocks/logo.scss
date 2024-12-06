@@ -15,6 +15,22 @@
   }
 }
 
+.logo:hover {
+  opacity: 0.8;
+}
+
+.logo:active {
+  opacity: 0.6;
+}
+
+.logo__trademark.logo__text:hover {
+  color: $black-additional-color;
+}
+
+.logo__trademark.logo__text:active {
+  color: $black-additional-color;
+}
+
 .logo__trademark {
   display: block;
   width: 33px;
@@ -22,12 +38,10 @@
 
   @media (min-width: $tablet-width) {
     width: 60px;
-    height: auto;
   }
 
   @media (min-width: $desktop-width) {
     width: 70px;
-    height: auto;
   }
 }
 
@@ -38,4 +52,12 @@
   @media (min-width: $desktop-width) {
     width: 118px;
   }
+}
+
+.logo__text:hover {
+  color: $black-additional-color;
+}
+
+.logo__text:active {
+  color: $black-additional-color;
 }

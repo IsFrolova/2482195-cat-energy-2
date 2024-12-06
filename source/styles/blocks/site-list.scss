@@ -52,8 +52,16 @@
   text-decoration: none;
 
   @media (min-width: $desktop-width) {
-    color: #111111;
+    color: $black-additional-color;
   }
+}
+
+.site-list__link:hover {
+  opacity: 60%;
+}
+
+.site-list__link:active {
+  opacity: 30%;
 }
 
 .site-list__link-index {
@@ -66,6 +74,7 @@
   @media (min-width: $tablet-width) {
     padding-bottom: 8px;
     border-bottom: 2px solid $green-font-color;
+    opacity: 1;
   }
 }
 

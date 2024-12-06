@@ -9,6 +9,7 @@
   display: block;
   box-sizing: border-box;
   padding: 10px;
+  cursor: pointer;
 
   @media (min-width: $tablet-width) {
     font-size: 20px;
@@ -21,4 +22,23 @@
     background-color: #f2f2f2;
     width: auto;
   }
+}
+
+.button:hover {
+  background-color: $green-button-hover-active-color;
+}
+
+.button:active {
+  background-color: $green-button-hover-active-color;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.button--grey:hover {
+  background-color: $grey-button-hover-active-color;
+  color: #444444;
+}
+
+.button--grey:active {
+  background-color: $grey-button-hover-active-color;
+  color: #444444;
 }

@@ -146,6 +146,11 @@
   text-transform: uppercase;
 }
 
+.fitness-goal__link:active,
+.fitness-goal__link:active::after {
+  opacity: 0.3;
+}
+
 .fitness-goal__link::after {
   content: "";
   display: block;

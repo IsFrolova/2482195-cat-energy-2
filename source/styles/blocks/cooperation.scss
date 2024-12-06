@@ -38,7 +38,7 @@
 }
 
 .cooperation__title {
-  color: #111111;
+  color: $black-additional-color;
   font-family: $secondary-font;
   font-size: 16px;
   font-weight: 400;
@@ -90,4 +90,10 @@ picture {
   margin: 0;
   padding: 0;
   height: auto;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  display: block;
 }
