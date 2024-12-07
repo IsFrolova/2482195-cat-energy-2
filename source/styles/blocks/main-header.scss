@@ -71,31 +71,52 @@
   padding: 0;
 }
 
-
 .main-header__toggle {
-  display: none;
-}
+  display: block;
+  background-image: url("../../icons/stack.svg#menu-open-icon");
+  background-size: 24px 24px;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: center;
+  width: 24px;
+  height: 24px;
+  border: none;
+  cursor: pointer;
 
-@media (max-width: $mobile-width-only) {
-  .main-header__toggle--close {
-    background-image: url("../../icons/stack.svg#menu-close-icon");
-    width: 18px;
-    height: 18px;
+  @media (min-width: $tablet-width) {
     display: none;
   }
+}
 
-  .main-header__toggle--open {
-    background-image: url("../../icons/stack.svg#menu-open-icon");
-    width: 24px;
-    height: 24px;
-  }
+.main-header__nav {
+  display: none;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 65px;
 
-  .main-header__toggle {
-    content: "";
+  @media (min-width: $tablet-width) {
     display: block;
-    background-repeat: no-repeat;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
+    position: static;
+    width: auto;
   }
+}
+
+.main-header--opened .main-header__nav {
+  display: block;
+}
+
+.main-header--opened .main-header__toggle {
+  background-image: url("../../icons/stack.svg#menu-close-icon");
+  background-size: 18px 18px;
+}
+
+.main-header--nojs .main-header__nav {
+  position: static;
+  display: block;
+}
+
+.main-header--nojs .main-header__toggle {
+  display: none;
 }

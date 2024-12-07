@@ -1,15 +1,5 @@
 .main-navigation {
-  display: none;
-
-  &--opened {
-    display: block;
-    width: 100%;
-  }
-
-  @media (min-width: $tablet-width) {
-    display: block;
-    width: auto;
-  }
+  //стили//
 }
 
 .main-navigation__list {
