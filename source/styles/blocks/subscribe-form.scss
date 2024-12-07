@@ -15,8 +15,10 @@
   font-weight: 400;
   line-height: 30px;
   text-transform: uppercase;
-  padding: 12px;
+  padding: 8px 12px;
   margin-bottom: 16px;
+  outline: 1px solid $grey-border-additional-color;
+  border: none;
 
   @media (min-width: $tablet-width) {
     width: 376px;
@@ -27,6 +29,19 @@
     width: 496px;
   }
 }
+
+.subscribe-form__input:hover {
+  outline: 1px solid $grey-border-color;
+}
+
+.subscribe-form__input:focus {
+  outline: 2px solid $basic-font-color;
+}
+
+.subscribe-form__input:invalid {
+  outline: 2px solid $input-red-color;
+}
+
 
 .subscribe-form__button {
   width: auto;

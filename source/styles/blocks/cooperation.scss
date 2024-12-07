@@ -3,7 +3,7 @@
 
   @media (min-width: $desktop-width) {
     display: grid;
-    grid-template-columns: 1fr 565px 575px 1fr;
+    grid-template-columns: 1fr 565px 625px 1fr;
   }
 }
 
@@ -23,9 +23,13 @@
   justify-content: space-between;
   padding: 26px 0;
 
-  @media (min-width: $desktop-width) {
+  @media (min-width: $tablet-width) {
     gap: 87px;
     padding: 60px 40px;
+  }
+
+  @media (min-width: $desktop-width) {
+    gap: 87px;
   }
 }
 
@@ -34,7 +38,7 @@
 }
 
 .cooperation__title {
-  color: #111111;
+  color: $black-additional-color;
   font-family: $secondary-font;
   font-size: 16px;
   font-weight: 400;
@@ -70,6 +74,12 @@
 }
 
 .cooperation__wrapper-img {
+  width: auto;
+
+  @media (min-width: $tablet-width) {
+    height: 400px;
+  }
+
   @media (min-width: $desktop-width) {
     grid-column: 1/5;
     grid-row: 1/2;
@@ -86,4 +96,11 @@ picture {
   margin: 0;
   padding: 0;
   height: auto;
+}
+
+.cooperation__wrapper-img iframe {
+  border: none;
+  display: block;
+  width: 100%;
+  height: 100%;
 }

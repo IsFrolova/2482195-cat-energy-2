@@ -54,6 +54,7 @@
   grid-column: 1/-1;
   grid-row: 1/2;
   justify-self: center;
+  cursor: pointer;
 
   @media (min-width: $tablet-width) {
     height: 512px;
@@ -81,4 +82,24 @@
   width: 24px;
   height: 18px;
   transform: translate(-40%, -50%);
+}
+
+.slider__button:hover,
+.slider__button:hover::after {
+  background-color: $green-font-color;
+}
+
+.slider__button:hover::before {
+  border: 2px solid $green-font-color;
+}
+
+.slider__button:active::before {
+  border: 2px solid $green-font-color;
+  opacity: 0.6;
+}
+
+.slider__button:active,
+.slider__button:active::after {
+  background-color: $slider-active-color;
+  opacity: 0.6;
 }

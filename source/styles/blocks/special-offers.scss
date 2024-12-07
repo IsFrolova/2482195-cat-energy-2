@@ -9,29 +9,51 @@
   font-weight: 400;
   line-height: 24px;
   margin: 0;
-  padding-top: 40px;
-  padding-bottom: 32px;
+  margin-top: 40px;
+  margin-bottom: 32px;
+  position: relative;
+  width: fit-content;
+  background: #ffffff;
+  box-shadow: -40px 0 0 0 #ffffff, 40px 0 0 0 #ffffff;
 
   @media (min-width: $tablet-width) {
     font-size: 32px;
     line-height: 32px;
-    padding-top: 80px;
-    padding-bottom: 66px;
+    margin-top: 80px;
+    margin-bottom: 66px;
   }
 
   @media (min-width: $desktop-width) {
     font-size: 40px;
     line-height: 34px;
-    padding-top: 80px;
-    padding-bottom: 66px;
+    margin-top: 96px;
+    margin-bottom: 72px;
+  }
+}
+
+.special-offers__title::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -20px;
+  left: -20px;
+  width: 100vw;
+  height: 2px;
+  background: $green-font-color;
+  box-shadow: 100vw 0 0 0 $green-font-color;
+  z-index: -1;
+
+  @media (min-width: $tablet-width) {
+    right: -30px;
+    left: -30px;
   }
 }
 
 .special-offers__description {
   font-size: 16px;
   line-height: 24px;
-  margin: 0;
-  margin-bottom: 24px;
+  max-width: 80%;
+  margin: 0 auto 24px;
   text-align: center;
 
   @media (min-width: $tablet-width) and (max-width: $desktop-width) {

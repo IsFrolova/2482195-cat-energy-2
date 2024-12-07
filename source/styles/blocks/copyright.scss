@@ -14,6 +14,18 @@
   height: 34px;
 }
 
+.copyright:hover::after {
+  background-color: $green-font-color;
+}
+
+.copyright:active::after {
+  opacity: 0.3;
+}
+
 .copyright__title {
   line-height: 20px;
+}
+
+.copyright__title:active {
+  opacity: 0.3;
 }
