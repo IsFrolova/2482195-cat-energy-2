@@ -74,8 +74,7 @@
 }
 
 .cooperation__wrapper-img {
-  height: 362px;
-
+  width: auto;
 
   @media (min-width: $tablet-width) {
     height: 400px;
@@ -99,6 +98,9 @@ picture {
   height: auto;
 }
 
-iframe {
+.cooperation__wrapper-img iframe {
+  border: none;
   display: block;
+  width: 100%;
+  height: 100%;
 }
