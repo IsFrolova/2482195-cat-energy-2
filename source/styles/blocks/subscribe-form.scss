@@ -17,7 +17,7 @@
   text-transform: uppercase;
   padding: 8px 12px;
   margin-bottom: 16px;
-  outline: 1px solid $grey-border-additional-color;
+  outline: 1px solid $primary-border-color;
   border: none;
 
   @media (min-width: $tablet-width) {
@@ -31,7 +31,7 @@
 }
 
 .subscribe-form__input:hover {
-  outline: 1px solid $grey-border-color;
+  outline: 1px solid $primary-border-color;
 }
 
 .subscribe-form__input:focus {
