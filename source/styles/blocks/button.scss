@@ -1,6 +1,6 @@
 .button {
-  color: #ffffff;
-  background-color: #68b738;
+  color: $light-bg-color;
+  background-color: $basic-button-color;
   font-family: $secondary-font;
   font-size: 16px;
   line-height: 20px;
@@ -18,27 +18,27 @@
   }
 
   &--grey {
-    color: #444444;
-    background-color: #f2f2f2;
+    color: $basic-font-color;
+    background-color: $additional-bg-color;
     width: auto;
   }
 }
 
 .button:hover {
-  background-color: $green-button-hover-active-color;
+  background-color: $basic-button-color;
 }
 
 .button:active {
-  background-color: $green-button-hover-active-color;
+  background-color: $basic-button-color;
   color: rgba(255, 255, 255, 0.3);
 }
 
 .button--grey:hover {
-  background-color: $grey-button-hover-active-color;
-  color: #444444;
+  background-color: $additional-button-color;
+  color: $basic-font-color;
 }
 
 .button--grey:active {
-  background-color: $grey-button-hover-active-color;
-  color: #444444;
+  background-color: $additional-button-color;
+  color: $basic-font-color;
 }

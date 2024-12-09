@@ -2,7 +2,6 @@
   display: flex;
   align-items: center;
   gap: 40%;
-  height: 65px;
 
 
   @media (min-width: $tablet-width) {
@@ -24,11 +23,11 @@
 }
 
 .logo__trademark.logo__text:hover {
-  color: $black-additional-color;
+  color: $additional-accent-color;
 }
 
 .logo__trademark.logo__text:active {
-  color: $black-additional-color;
+  color: $additional-accent-color;
 }
 
 .logo__trademark {
@@ -52,12 +51,4 @@
   @media (min-width: $desktop-width) {
     width: 118px;
   }
-}
-
-.logo__text:hover {
-  color: $black-additional-color;
-}
-
-.logo__text:active {
-  color: $black-additional-color;
 }

@@ -38,7 +38,7 @@
   outline: 2px solid $basic-font-color;
 }
 
-.subscribe-form__input:invalid {
+.subscribe-form__input:user-invalid {
   outline: 2px solid $input-red-color;
 }
 

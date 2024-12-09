@@ -8,7 +8,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: min-content min-content 1fr auto;
     box-sizing: border-box;
-    background: linear-gradient(to top, $grey-bg-color 84%, $white-bg-color 16%);
+    background: linear-gradient(to top, $grey-bg-color 84%, $light-bg-color 16%);
     padding: 0 37px 40px;
   }
 
@@ -32,6 +32,21 @@
   @media (min-width: $tablet-width) {
     margin: 0 auto;
   }
+}
+
+.card__link:hover,
+.card__link:active {
+  opacity: 0.3;
+  color: $basic-font-color;
+}
+
+.card__link:active {
+  opacity: 0.6;
+}
+
+.card__link-image:hover,
+.card__link-image:active {
+  opacity: 1;
 }
 
 .card__image {

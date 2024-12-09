@@ -1,7 +1,7 @@
 .main-header {
   background-color: $white-bg-color;
   border-bottom: 1px solid #e6e6e6;
-  color: $black-additional-color;
+  color: $additional-accent-color;
 
   @media (min-width: $tablet-width) {
     border-bottom: none;
@@ -14,7 +14,7 @@
 
 .main-header--index {
   position: relative;
-  color: #ffffff;
+  color: $light-bg-color;
 }
 
 .main-header--index::after {

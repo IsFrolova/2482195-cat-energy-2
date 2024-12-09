@@ -1,5 +1,5 @@
 .hero {
-  color: #ffffff;
+  color: $light-bg-color;
   text-align: center;
   min-height: 498px;
   padding-top: 27px;
@@ -37,7 +37,7 @@
     line-height: 60px;
     max-width: 430px;
     margin-bottom: 40px;
-    background-color: #ffffff;
+    background-color: $light-bg-color;
   }
 }
 
@@ -54,7 +54,7 @@
     font-size: 20px;
     line-height: 20px;
     margin-bottom: 50px;
-    background-color: #ffffff;
+    background-color: $light-bg-color;
   }
 
   @media (min-width: $desktop-width) {

@@ -1,6 +1,6 @@
 .site-list {
   list-style-type: none;
-  background-color: #ffffff;
+  background-color: $light-bg-color;
   text-align: center;
 
   @media (min-width: $tablet-width) {
@@ -27,7 +27,7 @@
   border-top: 1px solid #e6e6e6;
   margin-left: -20px;
   margin-right: -20px;
-  background-color: #ffffff;
+  background-color: $light-bg-color;
 
   @media (min-width: $tablet-width) {
     font-size: 18px;
@@ -42,7 +42,7 @@
   @media (min-width: $desktop-width) {
     font-size: 20px;
     line-height: 30px;
-    color: #ffffff;
+    color: $light-bg-color;
     background-color: transparent;
   }
 }
@@ -52,7 +52,7 @@
   text-decoration: none;
 
   @media (min-width: $desktop-width) {
-    color: $black-additional-color;
+    color: $additional-accent-color;
   }
 }
 
@@ -66,7 +66,7 @@
 
 .site-list__link-index {
   @media (min-width: $desktop-width) {
-    color: #ffffff;
+    color: $light-bg-color;
   }
 }
 
@@ -80,6 +80,6 @@
 
 .site-list__link-index--current {
   @media (min-width: $desktop-width) {
-    border-bottom: 2px solid #ffffff;
+    border-bottom: 2px solid $light-bg-color;
   }
 }
