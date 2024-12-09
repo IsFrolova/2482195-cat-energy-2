@@ -30,9 +30,9 @@
 }
 
 .product-catalog__item {
+  border-top: 1px solid #ebebeb;
   margin-left: -20px;
   margin-right: -20px;
-  border-top: 1px solid #ebebeb;
 
   @media (min-width: $tablet-width) {
     margin: 0 auto;

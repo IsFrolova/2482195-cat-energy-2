@@ -8,19 +8,20 @@
   font-size: 24px;
   font-weight: 400;
   line-height: 24px;
-  margin: 0;
-  margin-top: 40px;
-  margin-bottom: 32px;
+  margin: 40px 0 32px;
+
   position: relative;
   width: fit-content;
   background: #ffffff;
-  box-shadow: -40px 0 0 0 #ffffff, 40px 0 0 0 #ffffff;
+  box-shadow: -40px 0 0 0 #ffffff 40px 0 0 0 #ffffff;
 
   @media (min-width: $tablet-width) {
     font-size: 32px;
     line-height: 32px;
     margin-top: 80px;
     margin-bottom: 66px;
+    padding: 0 40px;
+    box-shadow: none;
   }
 
   @media (min-width: $desktop-width) {
@@ -47,6 +48,11 @@
     right: -30px;
     left: -30px;
   }
+
+  @media (min-width: $tablet-width) {
+    right: -40px;
+    left: -40px;
+  }
 }
 
 .special-offers__description {
@@ -56,7 +62,7 @@
   margin: 0 auto 24px;
   text-align: center;
 
-  @media (min-width: $tablet-width) and (max-width: $desktop-width) {
+  @media (min-width: $tablet-width) {
     font-size: 24px;
     line-height: 32px;
   }
