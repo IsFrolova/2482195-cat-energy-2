@@ -1,21 +1,24 @@
 .card-goods {
+  @media (min-width: $tablet-width) {
+    display: grid;
+    grid-template-columns: 1fr 250px;
+    padding: 25px 38px 26px;
+  }
+
   @media (min-width: $desktop-width) {
-    display: flex;
+    grid-template-columns: repeat(2, 285px) 245px;
+    column-gap: 40px;
+    padding: 15px 0 17px;
     align-items: center;
-    justify-content: space-between;
   }
 }
 
 .card-goods__list {
   list-style-type: none;
-  padding: 0;
+  padding: 13px 0 15px;
 
-  @media (min-width: $desktop-width) {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: auto;
-    margin-right: 40px;
+  @media (min-width: $tablet-width) {
+    padding: 0;
   }
 }
 
@@ -24,14 +27,13 @@
   font-family: $primary-font;
   font-size: 16px;
   line-height: 20px;
-  padding-top: 13px;
-  padding-bottom: 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 
   @media (min-width: $desktop-width) {
     width: 285px;
+    gap: 50px;
     padding: 0;
     margin: 0;
   }
@@ -46,10 +48,19 @@
 }
 
 .card-goods__button {
+  font-size: 16px;
+  line-height: 20px;
   text-decoration: none;
   min-width: 244px;
 
+  @media (min-width: $tablet-width) {
+    grid-column: 1/-1;
+    margin-top: 25px;
+  }
+
   @media (min-width: $desktop-width) {
+    grid-column: 3/-1;
+    margin-top: 0;
     padding: 10px 91px;
   }
 }

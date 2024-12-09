@@ -1,7 +1,11 @@
 .point {
   display: flex;
   align-items: center;
-  padding-bottom: 20px;
+
+
+  @media (min-width: $tablet-width) {
+    flex-wrap: wrap;
+  }
 }
 
 .point--one::before {
@@ -66,11 +70,12 @@
     counter-increment: number;
     content: counter(number) "";
     position: absolute;
+    top: -25px;
     right: 0;
     font-family: $secondary-font;
     font-size: 280px;
     line-height: 280px;
-    color: #f2f2f2;
+    color: $additional-bg-color;
     text-align: end;
     z-index: -1;
   }
@@ -79,11 +84,12 @@
     counter-increment: number;
     content: counter(number) "";
     position: absolute;
+    top: -25px;
     right: 0;
     font-family: $secondary-font;
     font-size: 280px;
     line-height: 280px;
-    color: #f2f2f2;
+    color: $additional-bg-color;
     text-align: end;
     z-index: -1;
   }
@@ -92,11 +98,12 @@
     counter-increment: number;
     content: counter(number) "";
     position: absolute;
+    top: -25px;
     right: 0;
     font-family: $secondary-font;
     font-size: 280px;
     line-height: 280px;
-    color: #f2f2f2;
+    color: $additional-bg-color;
     text-align: end;
     z-index: -1;
   }
@@ -105,11 +112,12 @@
     counter-increment: number;
     content: counter(number) "";
     position: absolute;
+    top: -25px;
     right: 0;
     font-family: $secondary-font;
     font-size: 280px;
     line-height: 280px;
-    color: #f2f2f2;
+    color: $additional-bg-color;
     text-align: end;
     z-index: -1;
   }

@@ -13,7 +13,7 @@
 
   @media (min-width: $desktop-width) {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     margin-bottom: 69px;
     justify-content: space-between;
   }
@@ -21,7 +21,7 @@
 
 .fitness-goal__item {
   position: relative;
-  background-color: #f2f2f2;
+  background-color: $additional-bg-color;
   padding: 30px 33px 18px 20px;
   margin-bottom: 20px;
   flex: 0 0 100%;
@@ -146,14 +146,25 @@
   text-transform: uppercase;
 }
 
+.fitness-goal__link:active,
+.fitness-goal__link:active::after {
+  opacity: 0.3;
+}
+
 .fitness-goal__link::after {
   content: "";
   display: block;
   position: absolute;
   mask-image: url("../../icons/stack.svg#arrow-icon");
-  background-color: #000000;
+  mask-size: 24px 10px;
+  background-color: $basic-font-color;
   width: 24px;
   height: 12px;
   top: 7px;
   left: 102px;
+}
+
+.fitness-goal__link:hover::after,
+.fitness-goal__link:active::after {
+  scale: 1.4;
 }

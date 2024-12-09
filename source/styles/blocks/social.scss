@@ -40,7 +40,7 @@
 }
 
 .social__link--yt {
-  &::before {
+  &::after {
     content: "";
     display: block;
     mask-image: url("../../icons/stack.svg#logo-youtube");
@@ -63,4 +63,17 @@
     width: 28px;
     height: 22px;
   }
+}
+
+.social__link--vk:hover::after,
+.social__link--yt:hover::after,
+.social__link--tg:hover::after {
+  background-color: $green-font-color;
+}
+
+.social__link--vk:active::after,
+.social__link--yt:active::after,
+.social__link--tg:active::after {
+  background-color: $green-font-color;
+  opacity: 0.3;
 }
