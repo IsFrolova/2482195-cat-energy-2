@@ -6,9 +6,9 @@
   @media (min-width: $tablet-width) {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: min-content min-content 1fr auto;
+    grid-template-rows: min-content 1fr auto;
     box-sizing: border-box;
-    background: linear-gradient(to top, $additional-bg-color 84%, $light-bg-color 16%);
+    background: linear-gradient(to top, $additional-bg-color 430px, $light-bg-color 81px);
     padding: 0 37px 40px;
   }
 
@@ -20,10 +20,6 @@
 .card__text {
   display: flex;
   flex-direction: column;
-
-  @media (min-width: $tablet-width) {
-    justify-content: space-between;
-  }
 }
 
 .card__link {

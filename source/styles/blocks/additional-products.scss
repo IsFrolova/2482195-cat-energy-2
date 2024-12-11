@@ -34,22 +34,13 @@
   content: "";
   position: absolute;
   top: 50%;
-  right: -20px;
-  left: -20px;
   width: 100vw;
   height: 2px;
   background: $green-font-color;
-  box-shadow: 100vw 0 0 0 $green-font-color;
   z-index: -1;
 
   @media (min-width: $tablet-width) {
-    right: -30px;
-    left: -30px;
-  }
-
-  @media (min-width: $tablet-width) {
-    right: -40px;
-    left: -40px;
+    box-shadow: -100vw 0 0 0 $green-font-color;
   }
 }
 
