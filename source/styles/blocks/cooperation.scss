@@ -49,12 +49,9 @@
   max-width: 140px;
 
   @media (min-width: $tablet-width) {
-    max-width: 163px;
-  }
-
-  @media (min-width: $desktop-width) {
     font-size: 20px;
     line-height: 26px;
+    max-width: 163px;
   }
 }
 
@@ -66,9 +63,12 @@
   flex: 0 0 50%;
   max-width: 140px;
 
-  @media (min-width: $desktop-width) {
+  @media (min-width: $tablet-width) {
     font-size: 16px;
     line-height: 20px;
+  }
+
+  @media (min-width: $desktop-width) {
     max-width: 157px;
   }
 }
