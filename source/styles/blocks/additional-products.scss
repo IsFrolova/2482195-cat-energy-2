@@ -15,13 +15,13 @@
   background: $light-bg-color;
   box-shadow: -40px 0 0 0 $light-bg-color, 40px 0 0 0 $light-bg-color;
 
+
   @media (min-width: $tablet-width) {
     margin-top: 74px;
     margin-bottom: 80px;
     font-size: 32px;
     line-height: 32px;
-    padding: 0 40px;
-    box-shadow: none;
+    box-shadow: 40px 0 0 0 $light-bg-color;
   }
 
   @media (min-width: $desktop-width) {
@@ -34,13 +34,15 @@
   content: "";
   position: absolute;
   top: 50%;
+  right: 0;
   width: 100vw;
   height: 2px;
   background: $green-font-color;
+  box-shadow: 100vw 0 0 0 $green-font-color;
   z-index: -1;
 
   @media (min-width: $tablet-width) {
-    box-shadow: -100vw 0 0 0 $green-font-color;
+    box-shadow: 100vw 0 0 0 $green-font-color;
   }
 }
 

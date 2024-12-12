@@ -9,19 +9,17 @@
   font-weight: 400;
   line-height: 24px;
   margin: 40px 0 32px;
-
   position: relative;
   width: fit-content;
   background: $light-bg-color;
-  box-shadow: -40px 0 0 0 $light-bg-color 40px 0 0 0 $light-bg-color;
+  box-shadow: -40px 0 0 0 $light-bg-color, 40px 0 0 0 $light-bg-color;
 
   @media (min-width: $tablet-width) {
     font-size: 32px;
     line-height: 32px;
     margin-top: 80px;
     margin-bottom: 66px;
-    padding: 0 40px;
-    box-shadow: none;
+    box-shadow: -40px 0 0 0 $light-bg-color, 40px 0 0 0 $light-bg-color;
   }
 
   @media (min-width: $desktop-width) {
@@ -36,8 +34,7 @@
   content: "";
   position: absolute;
   top: 50%;
-  right: -20px;
-  left: -20px;
+  right: 0;
   width: 100vw;
   height: 2px;
   background: $green-font-color;
@@ -45,13 +42,7 @@
   z-index: -1;
 
   @media (min-width: $tablet-width) {
-    right: -30px;
-    left: -30px;
-  }
-
-  @media (min-width: $tablet-width) {
-    right: -40px;
-    left: -40px;
+    box-shadow: 100vw 0 0 0 $green-font-color;
   }
 }
 
