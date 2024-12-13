@@ -15,6 +15,7 @@
 .main-header--index {
   position: relative;
   color: $light-bg-color;
+  border-bottom: none;
 }
 
 .main-header--index::after {
@@ -110,6 +111,7 @@
 .main-header--opened .main-header__toggle {
   background-image: url("../../icons/stack.svg#menu-close-icon");
   background-size: 18px 18px;
+  margin-left: 1px;
 }
 
 .main-header--nojs .main-header__nav {

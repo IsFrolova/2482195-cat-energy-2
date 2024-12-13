@@ -25,11 +25,16 @@
 .card-goods__item {
   color: $basic-font-color;
   font-family: $primary-font;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 14px;
+  line-height: 14px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+    line-height: 20px;
+  }
 
   @media (min-width: $desktop-width) {
     width: 285px;

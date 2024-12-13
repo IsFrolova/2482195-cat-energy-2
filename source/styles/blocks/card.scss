@@ -136,7 +136,7 @@
   text-decoration: none;
   min-width: 280px;
   height: fit-content;
-  margin-top: 17px;
+  margin-top: 16px;
   padding: 10px;
   font-size: 16px;
   line-height: 20px;
@@ -169,7 +169,7 @@
 
 .card__wrapper {
   text-align: center;
-  margin-top: 53px;
+  margin-top: 57px;
 
   @media (min-width: $tablet-width) {
     margin: 160px 38px 40px;
@@ -187,7 +187,7 @@
 .card__description {
   font-size: 12px;
   line-height: 16px;
-  margin: 0;
+  margin: 0 0 21px;
   padding-top: 8px;
 
   @media (min-width: $tablet-width) {

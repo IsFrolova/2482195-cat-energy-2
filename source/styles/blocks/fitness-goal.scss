@@ -23,7 +23,7 @@
   position: relative;
   background-color: $additional-bg-color;
   padding: 30px 33px 18px 20px;
-  margin-bottom: 20px;
+  margin-bottom: 19px;
   flex: 0 0 100%;
 
   @media (min-width: $tablet-width) {
@@ -55,7 +55,7 @@
     width: 200px;
     height: 211px;
     top: 81px;
-    left: calc(100% - 253px);
+    left: calc(100% - 264px);
   }
 
   @media (min-width: $desktop-width) {
@@ -76,8 +76,8 @@
   background-size: 67px 50px;
   width: 67px;
   height: 50px;
-  top: 24px;
-  left: 13px;
+  top: 23px;
+  left: 12px;
 
 
   @media (min-width: $tablet-width) {
@@ -105,7 +105,7 @@
   line-height: 37px;
   text-transform: uppercase;
   margin: 0;
-  padding-left: 90px;
+  padding-left: 70px;
 
   @media (min-width: $tablet-width) {
     font-size: 36px;
@@ -122,16 +122,17 @@
   font-size: 14px;
   line-height: 18px;
   border-bottom: 1px solid #d9d9d9;
+  margin: 0;
+  margin-bottom: 15px;
   padding-top: 29px;
-  padding-bottom: 38px;
+  padding-bottom: 23px;
 
   @media (min-width: $tablet-width) {
     font-size: 16px;
     line-height: 24px;
     border-bottom: none;
-    margin: 0;
     padding-top: 24px;
-    padding-bottom: 48px;
+    padding-bottom: 37px;
   }
 
   @media (min-width: $desktop-width) {
@@ -165,12 +166,12 @@
   display: block;
   position: absolute;
   mask-image: url("../../icons/stack.svg#arrow-icon");
-  mask-size: 24px 10px;
+  mask-size: 24px 13px;
   background-color: $basic-font-color;
   width: 24px;
-  height: 12px;
-  top: 7px;
-  left: 102px;
+  height: 13px;
+  top: 5px;
+  left: 100px;
 }
 
 .fitness-goal__link:hover::after,
