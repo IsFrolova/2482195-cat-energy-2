@@ -35,7 +35,7 @@
     border: none;
     margin: 0;
     padding: 14px 5px 13px;
-    background-color: none;
+    background-color: transparent;
   }
 
   @media (min-width: $desktop-width) {
@@ -71,7 +71,7 @@
 
 .site-list__link--current {
   @media (min-width: $tablet-width) {
-    padding-bottom: 8px;
+    padding-bottom: 5px;
     border-bottom: 2px solid $green-font-color;
     opacity: 1;
   }

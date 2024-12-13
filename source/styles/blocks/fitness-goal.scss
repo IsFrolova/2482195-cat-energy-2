@@ -27,8 +27,8 @@
   flex: 0 0 100%;
 
   @media (min-width: $tablet-width) {
-    padding: 77px 316px 83px 52px;
-    margin-bottom: 45px;
+    padding: 78px 316px 53px 52px;
+    margin-bottom: 30px;
   }
 
   @media (min-width: $desktop-width) {
@@ -84,8 +84,8 @@
     background-size: 268px 200px;
     width: 268px;
     height: 200px;
-    top: 91px;
-    left: calc(100% - 287px);
+    top: 93px;
+    left: calc(100% - 297px);
   }
 
   @media (min-width: $desktop-width) {
@@ -122,8 +122,7 @@
   font-size: 14px;
   line-height: 18px;
   border-bottom: 1px solid #d9d9d9;
-  margin: 0;
-  margin-bottom: 15px;
+  margin: 0 0 15px;
   padding-top: 29px;
   padding-bottom: 23px;
 
@@ -131,8 +130,9 @@
     font-size: 16px;
     line-height: 24px;
     border-bottom: none;
+    margin-bottom: 0;
     padding-top: 24px;
-    padding-bottom: 37px;
+    padding-bottom: 53px;
   }
 
   @media (min-width: $desktop-width) {
@@ -151,6 +151,7 @@
   text-transform: uppercase;
 
   @media (min-width: $tablet-width) {
+    min-width: 108px;
     font-size: 20px;
     line-height: 30px;
   }
@@ -166,12 +167,18 @@
   display: block;
   position: absolute;
   mask-image: url("../../icons/stack.svg#arrow-icon");
-  mask-size: 24px 13px;
+  mask-position: 0 0;
+  mask-size: 25px 12px;
   background-color: $basic-font-color;
-  width: 24px;
-  height: 13px;
+  width: 25px;
+  height: 12px;
   top: 5px;
   left: 100px;
+
+  @media (min-width: $tablet-width) {
+    top: 8px;
+    left: 131px;
+  }
 }
 
 .fitness-goal__link:hover::after,

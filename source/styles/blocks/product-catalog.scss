@@ -8,8 +8,13 @@
   font-size: 36px;
   font-weight: 400;
   line-height: 36px;
-  margin-top: 27px;
-  margin-bottom: 41px;
+  margin: 27px 0 41px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 60px;
+    line-height: 60px;
+    margin: 65px 0 84px;
+  }
 }
 
 .product-catalog__list {
@@ -20,7 +25,7 @@
   @media (min-width: $tablet-width) {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 60px;
+    gap: 61px 57px;
   }
 
   @media (min-width: $desktop-width) {

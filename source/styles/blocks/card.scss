@@ -89,7 +89,7 @@
   justify-items: center;
 
   @media (min-width: $tablet-width) {
-    padding-top: 21px;
+    padding-top: 18px;
   }
 
   @media (min-width: $desktop-width) {
@@ -108,16 +108,10 @@
   line-height: 16px;
 
   @media (min-width: $tablet-width) {
+    font-size: 16px;
+    line-height: 20px;
     flex-wrap: nowrap;
-    min-width: 200px;
-    padding-bottom: 5px;
-    margin-bottom: 6px;
-    border-bottom: 1px solid $primary-border-color;
-  }
-
-  @media (min-width: $tablet-width) {
-    flex-wrap: nowrap;
-    min-width: 169px;
+    min-width: 250px;
     padding-bottom: 5px;
     margin-bottom: 6px;
     border-bottom: 1px solid $primary-border-color;
@@ -144,7 +138,7 @@
 
   @media (min-width: $tablet-width) {
     min-width: 250px;
-    margin-top: 27px;
+    margin-top: 26px;
   }
 
   @media (min-width: $desktop-width) {
@@ -172,7 +166,7 @@
   margin-top: 57px;
 
   @media (min-width: $tablet-width) {
-    margin: 160px 38px 40px;
+    margin: 157px 38px 40px;
   }
 }
 
@@ -191,8 +185,10 @@
   padding-top: 8px;
 
   @media (min-width: $tablet-width) {
+    font-size: 16px;
+    line-height: 18px;
     padding-top: 23px;
-    padding-bottom: 48px;
+    padding-bottom: 56px;
     margin: 0 auto;
     max-width: 165px;
   }
