@@ -15,6 +15,10 @@
     line-height: 60px;
     margin: 65px 0 84px;
   }
+
+  @media (min-width: $desktop-width) {
+    margin: 73px 0 84px;
+  }
 }
 
 .product-catalog__list {

@@ -16,7 +16,7 @@
     min-height: 290px;
     padding-left: 80px;
     padding-top: 110px;
-    padding-bottom: 266px;
+    padding-bottom: 246px;
     background-color: transparent;
   }
 }
@@ -36,6 +36,10 @@
     max-width: 430px;
     margin-bottom: 14px;
     background-color: $light-bg-color;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-left: 40px;
   }
 }
 
@@ -57,6 +61,7 @@
 
   @media (min-width: $desktop-width) {
     max-width: 430px;
+    padding-left: 40px;
     margin-bottom: 52px;
   }
 }
@@ -79,7 +84,7 @@
   @media (min-width: $desktop-width) {
     width: 552px;
     height: auto;
-    inset: 30px 37% 0;
+    inset: 28px 38.7% 0;
   }
 }
 
@@ -89,5 +94,9 @@
 
   @media (min-width: $tablet-width) {
     width: 244px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 40px;
   }
 }

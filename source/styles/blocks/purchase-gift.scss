@@ -45,7 +45,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    display: none;
+    display: block;
   }
 }
 
@@ -69,6 +69,7 @@
 
   @media (min-width: $desktop-width) {
     left: 50%;
-    transform: translateX(-50%);
+    height: 84px;
+    transform: translateX(-48%);
   }
 }

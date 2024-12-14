@@ -11,6 +11,10 @@
   @media (min-width: $tablet-width) {
     align-items: center;
   }
+
+  @media (min-width: $desktop-width) {
+    min-height: 169px;
+  }
 }
 
 .main-footer__wrapper {

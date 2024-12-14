@@ -7,11 +7,12 @@
     display: inline-flex;
     justify-content: space-between;
     border-bottom: none;
-    gap: 24px;
+    gap: 23px;
   }
 
   @media (min-width: $desktop-width) {
     gap: 31px;
+    padding-right: 2px;
     background-color: transparent;
   }
 }
@@ -43,6 +44,7 @@
     line-height: 30px;
     color: $light-bg-color;
     background-color: transparent;
+    padding: 0;
   }
 }
 
@@ -74,6 +76,10 @@
     padding-bottom: 5px;
     border-bottom: 2px solid $green-font-color;
     opacity: 1;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-bottom: 7px;
   }
 }
 
