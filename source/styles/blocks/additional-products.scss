@@ -119,11 +119,11 @@
   border-bottom: 1px solid $primary-border-color;
 
   @media (min-width: $tablet-width) {
-    border-top: none;
+    border-top: 1px solid $primary-border-color;
+    border-bottom: none;
   }
 
   @media (min-width: $desktop-width) {
-    border-top: 1px solid $primary-border-color;
     border-bottom: 1px solid $primary-border-color;
   }
 }
