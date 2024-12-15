@@ -1,16 +1,37 @@
 .purchase-gift {
   display: block;
-  background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), url("../../images/catalog-banner-mobile@2x.jpg");
+  background-image:
+    linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)),
+    image-set(
+      url("../../images/catalog-banner-mobile@2x.webp") type("image/webp") 2x,
+      url("../../images/catalog-banner-mobile@1x.webp") type("image/webp") 1x,
+      url("../../images/catalog-banner-mobile@2x.jpg") 2x,
+      url("../../images/catalog-banner-mobile@1x.jpg") 1x
+    );
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 
   @media (min-width: $tablet-width) {
-    background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), url("../../images/catalog-banner-tablet@2x.jpg");
+    background-image:
+      linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)),
+      image-set(
+        url("../../images/catalog-banner-tablet@2x.webp") type("image/webp") 2x,
+        url("../../images/catalog-banner-tablet@1x.webp") type("image/webp") 1x,
+        url("../../images/catalog-banner-tablet@2x.jpg") 2x,
+        url("../../images/catalog-banner-tablet@1x.jpg") 1x
+      );
   }
 
   @media (min-width: $desktop-width) {
-    background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), url("../../images/catalog-banner-desktop@2x.jpg");
+    background-image:
+      linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)),
+      image-set(
+        url("../../images/catalog-banner-desktop@2x.webp") type("image/webp") 2x,
+        url("../../images/catalog-banner-desktop@1x.webp") type("image/webp") 1x,
+        url("../../images/catalog-banner-desktop@2x.jpg") 2x,
+        url("../../images/catalog-banner-desktop@1x.jpg") 1x
+      );
   }
 }
 
