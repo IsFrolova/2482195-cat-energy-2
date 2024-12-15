@@ -37,18 +37,6 @@
   }
 }
 
-.purchase-gift__description br {
-  display: none;
-
-  @media (min-width: $tablet-width) {
-    display: block;
-  }
-
-  @media (min-width: $desktop-width) {
-    display: block;
-  }
-}
-
 .purchase-gift__description::after {
   content: "";
   position: absolute;
