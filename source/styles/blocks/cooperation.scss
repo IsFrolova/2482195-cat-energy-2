@@ -88,6 +88,7 @@
 }
 
 .cooperation__wrapper-img {
+  position: relative;
   height: 362px;
 
   @media (min-width: $tablet-width) {
@@ -103,16 +104,18 @@
 .cooperation__wrapper-img iframe {
   border: none;
   display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
 }
-
 
 .cooperation__img {
   display: block;
   border: none;
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 
 picture {
