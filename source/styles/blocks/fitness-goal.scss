@@ -162,6 +162,7 @@
 }
 
 .fitness-goal__link:active,
+.fitness-goal__link:hover,
 .fitness-goal__link:active::after {
   opacity: 0.3;
 }
@@ -170,14 +171,15 @@
   content: "";
   display: block;
   position: absolute;
-  mask-image: url("../../icons/stack.svg#arrow-icon");
-  mask-position: 0 0;
-  mask-size: 25px 12px;
-  background-color: $basic-font-color;
-  width: 25px;
-  height: 12px;
   top: 5px;
   left: 100px;
+  mask-image: url("../../icons/stack.svg#arrow-icon");
+  mask-position: 0 0;
+  mask-size: 24px 12px;
+  width: 24px;
+  height: 12px;
+  mask-repeat: no-repeat;
+  background-color: $basic-font-color;
 
   @media (min-width: $tablet-width) {
     top: 8px;
@@ -187,5 +189,9 @@
 
 .fitness-goal__link:hover::after,
 .fitness-goal__link:active::after {
-  scale: 1.4;
+  mask-image: url("../../icons/stack.svg#arrow-icon-long");
+  mask-size: 32px 12px;
+  width: 32px;
+  height: 12px;
+  transition: 0.5s;
 }
