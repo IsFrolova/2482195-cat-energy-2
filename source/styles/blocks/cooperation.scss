@@ -89,10 +89,10 @@
 
 .cooperation__wrapper-img {
   position: relative;
-  height: 362px;
+  min-height: 362px;
 
   @media (min-width: $tablet-width) {
-    height: 400px;
+    min-height: 400px;
   }
 
   @media (min-width: $desktop-width) {
