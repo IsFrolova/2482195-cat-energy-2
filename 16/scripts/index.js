@@ -1,0 +1,1 @@
+var e=document.querySelector(".main-header"),t=document.querySelector(".main-header__toggle");e.classList.remove("main-header--nojs");t.addEventListener("click",()=>{e.classList.toggle("main-header--opened")});
